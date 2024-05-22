@@ -69,7 +69,7 @@ jobs:
         # token: ${{ secrets.TELEGRAM_TOKEN }}
         photo: ./test.png
         message: |
-          ${{ github.actor }} created commit:
+          ${{ github.actor }} created commit new view:
           Commit message: ${{ github.event.commits[0].message }}
 
           Repository: ${{ github.repository }}

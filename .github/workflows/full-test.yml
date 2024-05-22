@@ -65,8 +65,7 @@ jobs:
       uses: appleboy/telegram-action@master
       with:
         to: -4068927876
-        token: "6467115637:AAEgY7PxTNT1Y65SkV3HZ_YAOUf6Kb1dQU4"
-        # token: ${{ secrets.TELEGRAM_TOKEN }}
+        token: ${{ secrets.TELEGRAM_TOKEN }}
         photo: ./test.png
         message: |
           ${{ github.actor }} created commit new view:

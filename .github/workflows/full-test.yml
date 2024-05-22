@@ -83,3 +83,6 @@ jobs:
     - name: Deploy to GitHub Pages
       id: deployment
       uses: actions/deploy-pages@v1
+
+
+# https://nlapshin.github.io/nodejs-qa-ci-cd-03-2024/report.html
